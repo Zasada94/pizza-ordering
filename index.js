@@ -29,8 +29,8 @@ app.use("/api/orders", orderRoute);
 // 	res.sendFile(path.resolve(__dirname, "./client/pizza-portal/dist"));
 // });
 
-app.listen(process.env.PORT || 5000, () => {
-	console.log("Backend server is running !");
-});
+// app.listen(process.env.PORT || 5000, () => {
+// 	console.log("Backend server is running !");
+// });
 
-// export const handler = serverless(app);
+export const handler = serverless(app);
