@@ -2,7 +2,7 @@
 react pizza ordering custom API (project in development). API is necessary to connect UI to mongoDB database.
 
 ## Table of contents
-- [How To Install](#howtoinstall)
+- [How To Install](#how-to-install)
 - [Technologies](#technologies)
 - [Functionalities](#functionalities)
 
