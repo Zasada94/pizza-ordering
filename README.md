@@ -1,4 +1,4 @@
-# pizza-ordering
+# Double Pizza ordering API
 react pizza ordering custom API (project in development). API is necessary to connect UI to mongoDB database.
 
 ## Table of contents
