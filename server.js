@@ -86,5 +86,5 @@ app.use("/.netlify/functions/server", router);
 // app.listen(process.env.PORT || 5000, () => {
 // 	console.log("Backend server is running !");
 // });
-
-export const handler = serverless(app);
+module.exports = app;
+module.exports.handler = serverless(app);
