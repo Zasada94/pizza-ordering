@@ -2,13 +2,13 @@
 	"name": "pizza",
 	"version": "1.0.0",
 	"description": "",
-	"main": "funtions/server.js",
+	"main": "functions/server.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "nodemon server.js",
 		"client": "cd ./client/pizza-portal/ && npm run dev",
 		"dev": "concurrently \"npm run start\" \"npm run client\"",
-		"build": "netlify-lambda build express"
+		"build": "netlify build"
 	},
 	"author": "PawelZasada",
 	"license": "ISC",
